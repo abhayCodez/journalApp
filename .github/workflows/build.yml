@@ -40,4 +40,4 @@ jobs:
 
       - name: Build and analyze with SonarQube
         working-directory: journalApp/journalApp
-        run: mvn clean verify sonar:sonar -Dsonar.projectKey=your_project_key -Dsonar.organization=your_org -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+        run: mvn clean verify sonar:sonar -Dsonar.projectKey=abhaycodez_journalapp -Dsonar.organization=AbhayCodez -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
